@@ -1,0 +1,178 @@
+/* css reset */
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* variables */
+:root {
+  /* ## Colors */
+
+  /* ### Primary */
+  --Strong-Cyan: hsl(171, 66%, 44%);
+  --Light-Blue: hsl(233, 100%, 69%);
+
+  /* ### Neutral */
+  --Dark-Grayish-Blue: hsl(210, 10%, 33%);
+  --Grayish-Blue: hsl(201, 11%, 66%);
+
+  /* font */
+  --Bai-Jamjuree: "Bai Jamjuree", sans-serif;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  font-size: 1.8rem;
+  font-family: var(--Bai-Jamjuree);
+  background-image: url("./images/bg-header-desktop.png");
+  background-repeat: no-repeat;
+  text-align: center;
+}
+
+h2 {
+  padding-bottom: 2rem;
+}
+
+p {
+  color: var(--Dark-Grayish-Blue);
+  line-height: 1.5;
+  padding-bottom: 2rem;
+}
+
+.container {
+}
+.section {
+}
+.one {
+  width: 50%;
+  margin: 7rem auto 0 auto;
+  padding-bottom: 4em;
+}
+
+.heading {
+  padding: 2rem;
+}
+.header {
+  font-weight: 600;
+  font-size: 3.5rem;
+  padding-bottom: 1rem;
+}
+
+.sub {
+  font-size: 3rem;
+}
+
+.image-computer {
+  float: left;
+  position: relative;
+  left: -18rem;
+}
+
+.float-text {
+  padding-bottom: 2em;
+}
+
+.text {
+  text-align: left;
+}
+.cta {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  padding-bottom: 10rem;
+}
+
+.header-cta {
+  color: white;
+  padding: 1rem 1.5rem;
+  border-radius: 2rem;
+  border: none;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.ios-btn {
+  background-color: var(--Strong-Cyan);
+}
+.mac-btn {
+  background-color: var(--Light-Blue);
+}
+.sub-heading {
+}
+
+.two {
+  width: 90%;
+  padding-bottom: 25rem;
+}
+
+.three {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+}
+
+.four {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+}
+
+.product-review {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.five {
+  width: 80%;
+  margin: 0 auto;
+  padding-bottom: 8rem;
+}
+
+.brands {
+  display: flex;
+  gap: 4rem;
+  justify-content: center;
+}
+
+.six {
+  width: 60%;
+  margin: 0 auto;
+  padding-bottom: 2rem;
+}
+
+footer {
+  background-color: var(--Grayish-Blue);
+  padding-top: 3rem;
+  padding-bottom: 3rem;
+}
+
+.footer {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  width: 60%;
+  margin: 0 auto;
+  text-align: left;
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+.logof {
+  width: 20%;
+}
+
+.gridf {
+  display: flex;
+  flex-direction: column;
+}
+
+.iconf {
+  width: 10%;
+}
